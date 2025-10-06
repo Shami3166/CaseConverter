@@ -81,7 +81,7 @@ const GoogleSheetsCaseGuide = () => {
             <div className="w-full h-64 bg-gradient-to-r from-green-600 to-teal-700 flex items-center justify-center">
               <div className="text-center text-white">
                 <Code size={64} className="mx-auto mb-4" />
-                <h1 className="text-3xl font-bold">Google Sheets Text Case</h1>
+                <h2 className="text-3xl font-bold">Google Sheets Text Case</h2>
                 <p className="text-green-100 mt-2">
                   Formulas & Functions Guide
                 </p>

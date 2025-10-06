@@ -7,7 +7,9 @@ const TermsOfService = () => {
   return (
     <>
       <Helmet>
-        <title>Terms of Service | CaseConverter</title>
+        <title>
+          Terms of Service | CaseConverter free online text case tool
+        </title>
         <meta
           name="description"
           content="Read CaseConverter’s Terms of Service to understand your rights and responsibilities when using our free online text conversion tool. Use responsibly — your text remains private, and we don’t store your data."

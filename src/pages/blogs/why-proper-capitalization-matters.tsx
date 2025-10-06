@@ -95,7 +95,7 @@ const WhyCapitalizationMatters = () => {
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                 <div className="text-center text-white">
                   <Building size={48} className="mx-auto mb-4" />
-                  <h1 className="text-4xl font-bold">Professional Writing</h1>
+                  <h2 className="text-4xl font-bold">Professional Writing</h2>
                   <p className="text-purple-100 mt-2 text-lg">
                     Why Capitalization Matters
                   </p>

@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | CaseConverter</title>
+        <title>Privacy Policy | CaseConverter free online text case tool</title>
         <meta
           name="description"
           content="Read CaseConverter's Privacy Policy to learn how we protect your data. Our tool runs 100% in your browser — no tracking, no storage, and no data collection."
