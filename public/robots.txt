@@ -1,8 +1,4 @@
-# robots.txt for CaseConverter
-# Allow all search engines to crawl and index your entire website
-
+# public/robots.txt
 User-agent: *
 Allow: /
-
-# Sitemap link helps crawlers find all your pages quickly
-Sitemap: https://caseconverter.vercel.app/sitemap.xml
+Sitemap: https://case-converter-tool.vercel.app/sitemap.xml

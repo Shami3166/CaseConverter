@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- 🏠 Home / Tool Page -->
   <url>
-    <loc>https://caseconverter.vercel.app/</loc>
+    <loc>https://case-converter-tool.vercel.app/</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,7 +10,7 @@
 
   <!-- 📞 Contact Page -->
   <url>
-    <loc>https://caseconverter.vercel.app/contact</loc>
+    <loc>https://case-converter-tool.vercel.app/contact</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -21,7 +18,7 @@
 
   <!-- ℹ️ About Page -->
   <url>
-    <loc>https://caseconverter.vercel.app/about</loc>
+    <loc>https://case-converter-tool.vercel.app/about</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -29,7 +26,7 @@
 
   <!-- 🔒 Privacy Policy -->
   <url>
-    <loc>https://caseconverter.vercel.app/privacy-policy</loc>
+    <loc>https://case-converter-tool.vercel.app/privacy-policy</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -37,10 +34,9 @@
 
   <!-- 📜 Terms of Service -->
   <url>
-    <loc>https://caseconverter.vercel.app/terms-of-service</loc>
+    <loc>https://case-converter-tool.vercel.app/terms-of-service</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
-
 </urlset>
