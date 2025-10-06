@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
         />
         <meta
           property="og:image"
-          content="https://caseconverter.vercel.app/og-image.png"
+          content="https://caseconverter.vercel.app/og-image.webp"
         />
         <link
           rel="canonical"

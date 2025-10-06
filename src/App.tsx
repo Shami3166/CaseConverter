@@ -1,23 +1,42 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import AppRoutes from "./routes/appRoutes";
+import { lazy, Suspense } from "react";
 import { Toaster } from "sonner";
-import { HelmetProvider } from "react-helmet-async"; // ✅ Import HelmetProvider
+import { HelmetProvider } from "react-helmet-async";
+
+// Lazy load components
+const Navbar = lazy(() => import("./components/Navbar"));
+const Footer = lazy(() => import("./components/Footer"));
+const AppRoutes = lazy(() => import("./routes/appRoutes"));
+
+// Simple loading components
+const NavbarLoader = () => <div className="h-16 bg-gray-100 animate-pulse" />;
+const FooterLoader = () => <div className="h-20 bg-gray-100 animate-pulse" />;
+const MainLoader = () => (
+  <div className="flex-grow flex items-center justify-center min-h-64">
+    Loading...
+  </div>
+);
 
 function App() {
   return (
     <HelmetProvider>
       <Router>
         <div className="App min-h-screen flex flex-col">
-          <Navbar />
+          <Suspense fallback={<NavbarLoader />}>
+            <Navbar />
+          </Suspense>
+
           <main className="flex-grow">
-            <AppRoutes />
+            <Suspense fallback={<MainLoader />}>
+              <AppRoutes />
+            </Suspense>
           </main>
-          <Footer />
+
+          <Suspense fallback={<FooterLoader />}>
+            <Footer />
+          </Suspense>
         </div>
 
-        {/* ✅ Toast system mounted once at the root */}
         <Toaster position="top-right" richColors />
       </Router>
     </HelmetProvider>

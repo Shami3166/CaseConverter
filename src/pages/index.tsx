@@ -31,7 +31,7 @@ export default function IndexPage() {
         />
         <meta
           property="og:image"
-          content="https://caseconverter.vercel.app/og-image.png"
+          content="https://caseconverter.vercel.app/og-image.webp"
         />
         <meta property="og:url" content="https://caseconverter.vercel.app/" />
         <meta property="og:type" content="website" />
@@ -48,7 +48,7 @@ export default function IndexPage() {
         />
         <meta
           name="twitter:image"
-          content="https://caseconverter.vercel.app/og-image.png"
+          content="https://caseconverter.vercel.app/og-image.webp"
         />
       </Helmet>
 

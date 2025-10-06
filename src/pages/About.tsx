@@ -33,7 +33,7 @@ const About = () => {
         />
         <meta
           property="og:image"
-          content="https://caseconverter.vercel.app/og-image.png"
+          content="https://caseconverter.vercel.app/og-image.webp"
         />
         <meta property="og:type" content="website" />
 
@@ -49,7 +49,7 @@ const About = () => {
         />
         <meta
           name="twitter:image"
-          content="https://caseconverter.vercel.app/og-image.png"
+          content="https://caseconverter.vercel.app/og-image.webp"
         />
       </Helmet>
       <div className="min-h-screen bg-gray-50 py-12">
@@ -74,7 +74,7 @@ const About = () => {
               </h3>
               <div className="max-w-4xl mx-auto">
                 <img
-                  src="/og-image.png"
+                  src="/og-image.webp"
                   alt="Free Case Converter tool preview"
                   className="rounded-xl shadow-md border w-full h-auto"
                 />
