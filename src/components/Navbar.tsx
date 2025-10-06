@@ -6,6 +6,12 @@ import {
   SheetTitle,
   SheetDescription,
 } from "@/components/ui/sheet";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import {
   Menu,
@@ -13,8 +19,9 @@ import {
   Info,
   Phone,
   Shield,
-  FileText,
   Sparkles,
+  ChevronDown,
+  BookOpen,
 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -31,16 +38,42 @@ const Navbar = () => {
       path: "/privacy-policy",
       icon: <Shield className="w-4 h-4" />,
     },
+  ];
+
+  const blogLinks = [
     {
-      name: "Terms of Service",
-      path: "/terms-of-service",
-      icon: <FileText className="w-4 h-4" />,
+      name: "How to Change Text Case in Google Docs",
+      path: "/blog/how-to-change-text-case-google-docs",
+    },
+    {
+      name: "How to Change Text Case in Google Sheets",
+      path: "/blog/how-to-change-text-case-google-sheets",
+    },
+    {
+      name: "How to Change Text Case in Microsoft Word",
+      path: "/blog/how-to-change-text-case-microsoft-word",
+    },
+    {
+      name: "5 Common Text Case Mistakes and How to Fix Them",
+      path: "/blog/common-text-case-mistakes",
+    },
+    {
+      name: "Why Proper Capitalization Matters in Professional Writing",
+      path: "/blog/why-proper-capitalization-matters",
+    },
+    {
+      name: "How to Change Text Case on Mobile Phones (iOS & Android)",
+      path: "/blog/how-to-change-text-case-mobile",
     },
   ];
 
   const isActiveLink = (path: string) => {
     return location.pathname === path;
   };
+
+  const isBlogActive = blogLinks.some(
+    (link) => location.pathname === link.path
+  );
 
   return (
     <nav className="bg-white/80 backdrop-blur-md border-b shadow-sm sticky top-0 z-50">
@@ -86,6 +119,44 @@ const Navbar = () => {
                 <span>{link.name}</span>
               </Link>
             ))}
+
+            {/* Blogs Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="ghost"
+                  className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-200 font-medium ${
+                    isBlogActive
+                      ? "bg-gradient-to-r from-blue-50 to-purple-50 text-blue-700 border border-blue-200 shadow-sm"
+                      : "text-gray-600 hover:text-blue-600 hover:bg-blue-50/50"
+                  }`}
+                >
+                  <BookOpen
+                    className={`w-4 h-4 ${
+                      isBlogActive ? "text-blue-600" : "text-gray-400"
+                    }`}
+                  />
+                  <span>Blogs</span>
+                  <ChevronDown className="w-4 h-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="w-80 max-h-96 overflow-y-auto">
+                {blogLinks.map((blog) => (
+                  <DropdownMenuItem key={blog.path} asChild>
+                    <Link
+                      to={blog.path}
+                      className="flex items-start p-3 cursor-pointer hover:bg-blue-50 transition-colors"
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-medium text-gray-900 line-clamp-2">
+                          {blog.name}
+                        </div>
+                      </div>
+                    </Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
 
           {/* Mobile Menu Button */}
@@ -145,6 +216,36 @@ const Navbar = () => {
                       <span className="font-medium">{link.name}</span>
                     </Link>
                   ))}
+
+                  {/* Mobile Blogs Section */}
+                  <div className="pt-4 border-t border-gray-200">
+                    <div className="flex items-center space-x-3 px-4 py-2 mb-2">
+                      <BookOpen className="w-4 h-4 text-blue-600" />
+                      <span className="font-semibold text-gray-800">
+                        Blog Articles
+                      </span>
+                    </div>
+                    <div className="space-y-1 max-h-60 overflow-y-auto">
+                      {blogLinks.map((blog) => (
+                        <Link
+                          key={blog.path}
+                          to={blog.path}
+                          className={`flex items-start px-4 py-2 rounded-lg transition-all duration-200 ${
+                            isActiveLink(blog.path)
+                              ? "bg-blue-50 text-blue-700 border border-blue-200"
+                              : "text-gray-600 hover:bg-gray-100 hover:text-blue-600"
+                          }`}
+                          onClick={() => setIsOpen(false)}
+                        >
+                          <div className="flex-1 min-w-0">
+                            <div className="text-sm line-clamp-2">
+                              {blog.name}
+                            </div>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 </div>
 
                 {/* Mobile Footer */}
