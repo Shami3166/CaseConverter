@@ -14,7 +14,7 @@ const About = () => {
         />
         <meta
           name="keywords"
-          content="about case converter, text case tool, free text converter, uppercase lowercase tool, online text case converter, capitalize text online"
+          content="about case converter,how to change lower case to upper case,what is title case, text case tool, free text converter, uppercase lowercase tool, online text case converter, capitalize text online"
         />
         <link rel="canonical" href="https://caseconverter.vercel.app/about" />
 

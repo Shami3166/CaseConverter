@@ -8,7 +8,7 @@
     "types": ["vite/client"],
     "skipLibCheck": true,
 
-    "baseUrl": ".",
+    /* Path mapping - Updated approach */
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -25,7 +25,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    
+    /* Add this to ignore the baseUrl deprecation warning */
+    "ignoreDeprecations": "5.0"
   },
   "include": ["src"]
 }

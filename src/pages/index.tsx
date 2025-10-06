@@ -16,7 +16,7 @@ export default function IndexPage() {
         />
         <meta
           name="keywords"
-          content="case converter, online case converter, uppercase to lowercase, lowercase to uppercase format, sentence case converter, title case, capitalize text, change text case, text formatter, free text case tool,convert to small case,capital to small case converter,lower case converter,capital to sentence case,title case capitalizations"
+          content="case converter,how to change lower case to upper case,how to make small letters capital in word,what is title case, how to change a sentence from caps to lowercase,how to convert text to sentence case, online case converter, uppercase to lowercase, lowercase to uppercase format, sentence case converter, title case, capitalize text, change text case, text formatter, free text case tool,convert to small case,capital to small case converter,lower case converter,capital to sentence case,title case capitalizations"
         />
         <link rel="canonical" href="https://caseconverter.vercel.app/" />
 
