@@ -93,7 +93,14 @@ export default defineConfig([
 │ │ ├── Contact.tsx
 │ │ ├── PrivacyPolicy.tsx
 │ │ └── TermsOfService.tsx
-│ │
+│ │ └── sitemap.xml.tsx
+│ │ └── /blogs
+│ │       └── /how-to-change-text-case-mobile.tsx
+│ │       └── /why-proper-capitalization-matters.tsx
+│ │       └── /common-text-case-mistakes.tsx
+│ │       └── /how-to-change-text-case-microsoft-word.tsx
+│ │       └── /how-to-change-text-case-google-sheets.tsx
+│ │       └── /how-to-change-text-case-google-docs.tsx
 │ ├── /hooks
 │ │ └── useCaseConverter.ts ← KEEP (performance helper)
 │ ├── /routes
@@ -109,7 +116,67 @@ export default defineConfig([
 ├── /package-lock.json
 ├── /package.json
 ├── /README.md
+├── /eslint.config.js
 ├── /tsconfig.app.json
 ├── /tsconfig.node.json
 ├── /tsconfig.json
 ├── /vite.config.ts
+├── /vercel.json
+
+
+
+
+
+
+
+
+
+case-converter-nextjs/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx                          ← Main tool (home page)
+│   ├── about/
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── privacy-policy/
+│   │   └── page.tsx
+│   ├── terms-of-service/
+│   │   └── page.tsx
+│   ├── sitemap.xml/
+│   │   └── route.tsx
+│   ├── robots.txt/
+│   │   └── route.tsx
+│   └── blogs/
+│       ├── how-to-change-text-case-mobile/
+│       │   └── page.tsx
+│       ├── why-proper-capitalization-matters/
+│       │   └── page.tsx
+│       ├── common-text-case-mistakes/
+│       │   └── page.tsx
+│       ├── how-to-change-text-case-microsoft-word/
+│       │   └── page.tsx
+│       ├── how-to-change-text-case-google-sheets/
+│       │   └── page.tsx
+│       └── how-to-change-text-case-google-docs/
+│           └── page.tsx
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── CaseConverter.tsx
+│   └── FAQ.tsx
+├── hooks/
+│   └── useCaseConverter.ts
+├── utils/
+│   └── caseConverter.ts
+├── lib/
+│   └── utils.ts                         ← shadcn/utils (auto-generated)
+├── public/
+│   ├── (your static assets if any)
+├── tailwind.config.ts
+├── components.json
+├── next.config.js
+├── tsconfig.json
+├── package.json
+└── README.md
