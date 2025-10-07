@@ -71,7 +71,7 @@ const MobileCaseChangeGuide = () => {
         />
       </Helmet>
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto  max-w-4xl">
         {/* Back Button */}
         <Button
           variant="ghost"
@@ -139,7 +139,7 @@ const MobileCaseChangeGuide = () => {
               </div>
 
               {/* ✅ Keywords Tags Section */}
-              <div className="flex items-start gap-2 mb-4 p-4 bg-gray-50 rounded-lg border">
+              <div className="flex items-start gap-2 mb-4 p-2 bg-gray-50 rounded-lg border">
                 <Tags size={16} className="text-gray-500 mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-sm font-medium text-gray-700 block mb-2">
@@ -161,7 +161,7 @@ const MobileCaseChangeGuide = () => {
             </div>
 
             {/* Blog Content */}
-            <div className="px-8 pb-8">
+            <div className="px-4 pb-8">
               <div className="prose prose-lg max-w-none">
                 {/* Introduction */}
                 <div className="bg-blue-50 border-l-4 border-blue-500 pl-4 py-2 mb-6">
@@ -191,24 +191,24 @@ const MobileCaseChangeGuide = () => {
                     (uppercase), small (lowercase), or mixed form.
                   </p>
 
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div className="bg-purple-50 rounded-lg p-4">
+                  <div className="grid md:grid-cols-2 gap-2">
+                    <div className="bg-purple-50 rounded-lg p-2">
                       <p className="font-mono text-lg mb-2">UPPERCASE</p>
                       <p className="text-gray-700">
                         Every letter is capitalized
                       </p>
                     </div>
-                    <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="bg-gray-50 rounded-lg p-2">
                       <p className="font-mono text-lg mb-2">lowercase</p>
                       <p className="text-gray-700">All letters are small</p>
                     </div>
-                    <div className="bg-blue-50 rounded-lg p-4">
+                    <div className="bg-blue-50 rounded-lg p-2">
                       <p className="font-mono text-lg mb-2">Title Case</p>
                       <p className="text-gray-700">
                         First letter of each major word capitalized
                       </p>
                     </div>
-                    <div className="bg-green-50 rounded-lg p-4">
+                    <div className="bg-green-50 rounded-lg p-2">
                       <p className="font-mono text-lg mb-2">Sentence case</p>
                       <p className="text-gray-700">
                         Only first letter of first word capitalized
@@ -232,7 +232,7 @@ const MobileCaseChangeGuide = () => {
                   </p>
 
                   {/* Method 1: Auto-Capitalization */}
-                  <div className="mb-6 bg-blue-50 rounded-lg p-4">
+                  <div className="mb-6 bg-blue-50 rounded-lg p-2">
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       1. Enable or Disable Auto-Capitalization
                     </h3>
@@ -240,7 +240,7 @@ const MobileCaseChangeGuide = () => {
                       iPhones automatically capitalize the first word of a
                       sentence.
                     </p>
-                    <div className="bg-white rounded-lg p-4 border">
+                    <div className="bg-white rounded-lg p-2 border">
                       <p className="text-blue-800 font-medium mb-2">
                         📱 Steps:
                       </p>
@@ -256,11 +256,11 @@ const MobileCaseChangeGuide = () => {
                   </div>
 
                   {/* Method 2: Shift Key */}
-                  <div className="mb-6 bg-green-50 rounded-lg p-4">
+                  <div className="mb-6 bg-green-50 rounded-lg p-2">
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       2. Use the Shift Key for Quick Capitalization
                     </h3>
-                    <div className="bg-white rounded-lg p-4 border">
+                    <div className="bg-white rounded-lg p-2 border">
                       <p className="text-green-800 font-medium mb-2">
                         ⌨️ Keyboard Shortcuts:
                       </p>
@@ -281,7 +281,7 @@ const MobileCaseChangeGuide = () => {
                   </div>
 
                   {/* Method 3: Apps */}
-                  <div className="mb-4 bg-purple-50 rounded-lg p-4">
+                  <div className="mb-4 bg-purple-50 rounded-lg p-2">
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       3. Use Text Editing Apps
                     </h3>
@@ -308,11 +308,11 @@ const MobileCaseChangeGuide = () => {
                   </p>
 
                   {/* Method 1: Shift Key */}
-                  <div className="mb-6 bg-green-50 rounded-lg p-4">
+                  <div className="mb-6 bg-green-50 rounded-lg p-2">
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       1. Use Shift Key for Quick Caps
                     </h3>
-                    <div className="bg-white rounded-lg p-4 border">
+                    <div className="bg-white rounded-lg p-2 border">
                       <p className="text-green-800 font-medium mb-2">
                         ⌨️ Works in WhatsApp, Gmail, Notes:
                       </p>
@@ -330,11 +330,11 @@ const MobileCaseChangeGuide = () => {
                   </div>
 
                   {/* Method 2: Auto-Capitalization */}
-                  <div className="mb-6 bg-blue-50 rounded-lg p-4">
+                  <div className="mb-6 bg-blue-50 rounded-lg p-2">
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">
                       2. Turn Auto-Capitalization On/Off
                     </h3>
-                    <div className="bg-white rounded-lg p-4 border">
+                    <div className="bg-white rounded-lg p-2 border">
                       <p className="text-blue-800 font-medium mb-2">
                         ⚙️ Settings Path:
                       </p>
@@ -392,20 +392,20 @@ const MobileCaseChangeGuide = () => {
                     🔹 Why Changing Text Case Matters on Mobile
                   </h2>
 
-                  <div className="grid md:grid-cols-3 gap-4 text-center">
-                    <div className="bg-red-50 p-4 rounded-lg border border-red-200">
+                  <div className="grid md:grid-cols-3 gap-2 text-center">
+                    <div className="bg-red-50 p-2 rounded-lg border border-red-200">
                       <p className="font-mono text-red-600 mb-2">ALL CAPS</p>
                       <p className="text-gray-700 text-sm">
                         Looks like shouting
                       </p>
                     </div>
-                    <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                    <div className="bg-gray-50 p-2 rounded-lg border border-gray-200">
                       <p className="font-mono text-gray-600 mb-2">lowercase</p>
                       <p className="text-gray-700 text-sm">
                         Too casual or lazy
                       </p>
                     </div>
-                    <div className="bg-green-50 p-4 rounded-lg border border-green-200">
+                    <div className="bg-green-50 p-2 rounded-lg border border-green-200">
                       <p className="font-mono text-green-600 mb-2">
                         Proper Case
                       </p>
@@ -433,7 +433,7 @@ const MobileCaseChangeGuide = () => {
                     <strong>Case Converter Tool</strong>.
                   </p>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       📲 Perfect for Mobile:
                     </p>
@@ -454,7 +454,7 @@ const MobileCaseChangeGuide = () => {
                 </div>
 
                 {/* Conclusion */}
-                <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-8 text-white text-center">
+                <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl p-4 text-white text-center">
                   <h2 className="text-2xl font-bold mb-4">✅ Final Thoughts</h2>
                   <p className="text-cyan-100 text-lg mb-4">
                     Changing text case on mobile phones is simple once you know
@@ -463,8 +463,8 @@ const MobileCaseChangeGuide = () => {
                     with long paragraphs — online tools are your best choice.
                   </p>
 
-                  <div className="grid md:grid-cols-2 gap-4 mb-6">
-                    <div className="bg-white bg-opacity-20 p-4 rounded-lg">
+                  <div className="grid md:grid-cols-2 gap-2 mb-6">
+                    <div className="bg-white bg-opacity-20 p-2 rounded-lg">
                       <p className="font-semibold">Mobile Methods:</p>
                       <ul className="text-left text-cyan-100 space-y-1 mt-2">
                         <li>• Shift key shortcuts</li>
@@ -472,7 +472,7 @@ const MobileCaseChangeGuide = () => {
                         <li>• Text editing apps</li>
                       </ul>
                     </div>
-                    <div className="bg-white bg-opacity-20 p-4 rounded-lg">
+                    <div className="bg-white bg-opacity-20 p-2 rounded-lg">
                       <p className="font-semibold">Best Solution:</p>
                       <p className="text-cyan-100 mt-2">
                         Use our{" "}
@@ -502,7 +502,7 @@ const MobileCaseChangeGuide = () => {
               </div>
 
               {/* Share & Keywords Footer */}
-              <div className="flex flex-col gap-4 mt-8 pt-6 border-t border-gray-200">
+              <div className="flex flex-col gap-2 mt-8 pt-6 border-t border-gray-200">
                 <div className="text-center">
                   <span className="text-sm font-medium text-gray-600">
                     Share this guide:
@@ -517,7 +517,7 @@ const MobileCaseChangeGuide = () => {
                 </div>
 
                 {/* ✅ All Keywords Display */}
-                <div className="bg-gray-50 rounded-lg p-4">
+                <div className="bg-gray-50 rounded-lg p-2">
                   <div className="flex items-center gap-2 mb-2">
                     <Tags size={14} className="text-gray-500" />
                     <span className="text-sm font-medium text-gray-700">

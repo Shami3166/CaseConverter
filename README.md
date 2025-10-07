@@ -71,3 +71,45 @@ export default defineConfig([
   },
 ])
 ```
+
+
+
+
+/case-converter-app
+├── /src
+│ ├── /public
+│ │ ├── robots.txt
+│ │ ├── sitemap.xml
+│ │
+│ ├── /components
+│ │ ├── Navbar.tsx
+│ │ ├── Footer.tsx
+│ │ ├── CaseConverter.tsx
+│ │ └── FAQ.tsx
+│ │
+│ ├── /pages
+│ │ ├── index.tsx .. (main tool page )
+│ │ ├── About.tsx
+│ │ ├── Contact.tsx
+│ │ ├── PrivacyPolicy.tsx
+│ │ └── TermsOfService.tsx
+│ │
+│ ├── /hooks
+│ │ └── useCaseConverter.ts ← KEEP (performance helper)
+│ ├── /routes
+│ │ └── appRoutes
+│ │
+│ ├── /utils
+│ │ └── caseConverter.ts ← KEEP (performance helper)
+│ │
+│ ├── App.tsx
+│ └── main.tsx
+├── /gitignore
+├── /index.html
+├── /package-lock.json
+├── /package.json
+├── /README.md
+├── /tsconfig.app.json
+├── /tsconfig.node.json
+├── /tsconfig.json
+├── /vite.config.ts

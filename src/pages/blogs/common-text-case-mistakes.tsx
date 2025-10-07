@@ -66,7 +66,7 @@ const CommonTextCaseMistakes = () => {
         />
       </Helmet>
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto  max-w-4xl">
         {/* Back Button */}
         <Button
           variant="ghost"
@@ -90,7 +90,7 @@ const CommonTextCaseMistakes = () => {
             </div>
 
             {/* Blog Header */}
-            <div className="p-8 pb-4">
+            <div className="p-2 pb-4">
               <div className="flex flex-wrap gap-2 mb-4">
                 <Badge variant="secondary" className="bg-red-100 text-red-800">
                   Writing Tips
@@ -131,7 +131,7 @@ const CommonTextCaseMistakes = () => {
               </div>
 
               {/* ✅ Keywords Tags Section */}
-              <div className="flex items-start gap-2 mb-4 p-4 bg-gray-50 rounded-lg border">
+              <div className="flex items-start gap-2 mb-4 p-2 bg-gray-50 rounded-lg border">
                 <Tags size={16} className="text-gray-500 mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-sm font-medium text-gray-700 block mb-2">
@@ -174,7 +174,7 @@ const CommonTextCaseMistakes = () => {
                 </p>
 
                 {/* Mistake 1 */}
-                <div className="mb-8 bg-white border border-red-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-red-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-red-600">🔹</span>
                     1. Using ALL CAPS Everywhere
@@ -186,14 +186,14 @@ const CommonTextCaseMistakes = () => {
                     it actually gives the impression that you're shouting.
                   </p>
 
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-2 mb-4">
                     <p className="text-red-800 font-medium mb-2">❌ Example:</p>
                     <p className="text-red-700 font-mono">
                       PLEASE SEND THE FILE BEFORE NOON.
                     </p>
                   </div>
 
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-2 mb-4">
                     <p className="text-green-800 font-medium mb-2">
                       ✅ Corrected:
                     </p>
@@ -202,7 +202,7 @@ const CommonTextCaseMistakes = () => {
                     </p>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       🛠️ How to Fix It:
                     </p>
@@ -216,7 +216,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Mistake 2 */}
-                <div className="mb-8 bg-white border border-orange-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-orange-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-orange-600">🔹</span>
                     2. Forgetting to Capitalize Proper Nouns
@@ -228,14 +228,14 @@ const CommonTextCaseMistakes = () => {
                     careless.
                   </p>
 
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-2 mb-4">
                     <p className="text-red-800 font-medium mb-2">❌ Example:</p>
                     <p className="text-red-700">
                       I met john from microsoft last week in london.
                     </p>
                   </div>
 
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-2 mb-4">
                     <p className="text-green-800 font-medium mb-2">
                       ✅ Corrected:
                     </p>
@@ -244,7 +244,7 @@ const CommonTextCaseMistakes = () => {
                     </p>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       🛠️ How to Fix It:
                     </p>
@@ -257,7 +257,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Case Converter Tool Section */}
-                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl p-8 text-white mb-8">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl p-4 text-white mb-8">
                   <h3 className="text-2xl font-bold mb-4 text-center">
                     🚀 Fix All Case Mistakes Instantly
                   </h3>
@@ -284,7 +284,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Mistake 3 */}
-                <div className="mb-8 bg-white border border-yellow-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-yellow-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-yellow-600">🔹</span>
                     3. Inconsistent Title Formatting
@@ -296,14 +296,14 @@ const CommonTextCaseMistakes = () => {
                     making their work look inconsistent.
                   </p>
 
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-2 mb-4">
                     <p className="text-red-800 font-medium mb-2">❌ Example:</p>
                     <p className="text-red-700 font-mono">
                       "how To Write A GOOD Blog POST"
                     </p>
                   </div>
 
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-2 mb-4">
                     <p className="text-green-800 font-medium mb-2">
                       ✅ Corrected:
                     </p>
@@ -312,7 +312,7 @@ const CommonTextCaseMistakes = () => {
                     </p>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       🛠️ How to Fix It:
                     </p>
@@ -327,7 +327,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Mistake 4 */}
-                <div className="mb-8 bg-white border border-green-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-green-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-green-600">🔹</span>
                     4. Forgetting to Capitalize the First Word
@@ -338,14 +338,14 @@ const CommonTextCaseMistakes = () => {
                     when people are typing quickly or using mobile devices.
                   </p>
 
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-2 mb-4">
                     <p className="text-red-800 font-medium mb-2">❌ Example:</p>
                     <p className="text-red-700">
                       it's easy to forget capitalization when typing fast.
                     </p>
                   </div>
 
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-2 mb-4">
                     <p className="text-green-800 font-medium mb-2">
                       ✅ Corrected:
                     </p>
@@ -354,7 +354,7 @@ const CommonTextCaseMistakes = () => {
                     </p>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       🛠️ How to Fix It:
                     </p>
@@ -369,7 +369,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Mistake 5 */}
-                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-purple-600">🔹</span>
                     5. Overusing Random Capital Letters
@@ -380,14 +380,14 @@ const CommonTextCaseMistakes = () => {
                     unprofessional.
                   </p>
 
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-2 mb-4">
                     <p className="text-red-800 font-medium mb-2">❌ Example:</p>
                     <p className="text-red-700">
                       Our New Product Is The Best Choice For Students.
                     </p>
                   </div>
 
-                  <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                  <div className="bg-green-50 border border-green-200 rounded-lg p-2 mb-4">
                     <p className="text-green-800 font-medium mb-2">
                       ✅ Corrected:
                     </p>
@@ -396,7 +396,7 @@ const CommonTextCaseMistakes = () => {
                     </p>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       🛠️ How to Fix It:
                     </p>
@@ -410,7 +410,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Bonus Tips */}
-                <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-8 text-white mb-8">
+                <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-2 text-white mb-8">
                   <h2 className="text-2xl font-bold mb-4 text-center">
                     💡 Bonus Tip: Keep Formatting Consistent
                   </h2>
@@ -448,7 +448,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* Conclusion */}
-                <div className="bg-gradient-to-r from-gray-100 to-gray-200 rounded-2xl p-8 text-center">
+                <div className="bg-gradient-to-r from-gray-100 to-gray-200 rounded-2xl p-2 text-center">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">
                     ✅ Final Thoughts
                   </h2>
@@ -478,7 +478,7 @@ const CommonTextCaseMistakes = () => {
               </div>
 
               {/* Share & Keywords Footer */}
-              <div className="flex flex-col gap-4 mt-8 pt-6 border-t border-gray-200">
+              <div className="flex flex-col gap-2 mt-8 pt-6 border-t border-gray-200">
                 <div className="text-center">
                   <span className="text-sm font-medium text-gray-600">
                     Share this guide:
@@ -493,7 +493,7 @@ const CommonTextCaseMistakes = () => {
                 </div>
 
                 {/* ✅ All Keywords Display */}
-                <div className="bg-gray-50 rounded-lg p-4">
+                <div className="bg-gray-50 rounded-lg p-2">
                   <div className="flex items-center gap-2 mb-2">
                     <Tags size={14} className="text-gray-500" />
                     <span className="text-sm font-medium text-gray-700">

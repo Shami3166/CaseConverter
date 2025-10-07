@@ -71,7 +71,7 @@ const WhyCapitalizationMatters = () => {
         />
       </Helmet>
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto max-w-4xl">
         {/* Back Button */}
         <Button
           variant="ghost"
@@ -104,7 +104,7 @@ const WhyCapitalizationMatters = () => {
             </div>
 
             {/* Blog Header */}
-            <div className="p-8 pb-4">
+            <div className="p-4 pb-4">
               <div className="flex flex-wrap gap-2 mb-4">
                 <Badge
                   variant="secondary"
@@ -148,7 +148,7 @@ const WhyCapitalizationMatters = () => {
               </div>
 
               {/* ✅ Keywords Tags Section */}
-              <div className="flex items-start gap-2 mb-4 p-4 bg-gray-50 rounded-lg border">
+              <div className="flex items-start gap-2 mb-4 p-2 bg-gray-50 rounded-lg border">
                 <Tags size={16} className="text-gray-500 mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-sm font-medium text-gray-700 block mb-2">
@@ -173,7 +173,7 @@ const WhyCapitalizationMatters = () => {
             <div className="px-8 pb-8">
               <div className="prose prose-lg max-w-none">
                 {/* Introduction */}
-                <div className="bg-purple-50 border-l-4 border-purple-500 pl-4 py-2 mb-6">
+                <div className="bg-purple-50 border-l-4 border-purple-500 pl-2 py-2 mb-6">
                   <p className="text-gray-700 italic">
                     Have you ever received an email that started with "hi sir"
                     or read a report filled with random capital letters? Even if
@@ -190,7 +190,7 @@ const WhyCapitalizationMatters = () => {
                 </p>
 
                 {/* Point 1: Professionalism */}
-                <div className="mb-8 bg-white border border-blue-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-blue-200 rounded-lg p-2 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-blue-100 p-2 rounded-lg">
                       <Building className="text-blue-600" size={24} />
@@ -210,7 +210,7 @@ const WhyCapitalizationMatters = () => {
                   </p>
 
                   <div className="grid md:grid-cols-2 gap-4 mb-4">
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                    <div className="bg-red-50 border border-red-200 rounded-lg p-2">
                       <p className="text-red-800 font-medium mb-2">
                         ❌ Unprofessional:
                       </p>
@@ -218,7 +218,7 @@ const WhyCapitalizationMatters = () => {
                         "dear manager, please find attached my report."
                       </p>
                     </div>
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-2">
                       <p className="text-green-800 font-medium mb-2">
                         ✅ Professional:
                       </p>
@@ -236,7 +236,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Point 2: Readability */}
-                <div className="mb-8 bg-white border border-green-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-green-200 rounded-lg p-4 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-green-100 p-2 rounded-lg">
                       <Eye className="text-green-600" size={24} />
@@ -254,7 +254,7 @@ const WhyCapitalizationMatters = () => {
                   </p>
 
                   <div className="space-y-4">
-                    <div className="bg-gray-800 rounded-lg p-4">
+                    <div className="bg-gray-800 rounded-lg p-2">
                       <p className="text-red-300 font-mono mb-2">
                         Without capitalization:
                       </p>
@@ -264,7 +264,7 @@ const WhyCapitalizationMatters = () => {
                         sentences start and end"
                       </p>
                     </div>
-                    <div className="bg-gray-800 rounded-lg p-4">
+                    <div className="bg-gray-800 rounded-lg p-2">
                       <p className="text-green-300 font-mono mb-2">
                         With proper capitalization:
                       </p>
@@ -284,7 +284,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Point 3: Tone */}
-                <div className="mb-8 bg-white border border-yellow-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-yellow-200 rounded-lg p-4 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-yellow-100 p-2 rounded-lg">
                       <MessageCircle className="text-yellow-600" size={24} />
@@ -303,7 +303,7 @@ const WhyCapitalizationMatters = () => {
                   </p>
 
                   <div className="space-y-3 mb-4">
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                    <div className="bg-red-50 border border-red-200 rounded-lg p-2">
                       <p className="text-red-800 font-medium mb-1">
                         ❌ Aggressive tone:
                       </p>
@@ -311,7 +311,7 @@ const WhyCapitalizationMatters = () => {
                         PLEASE RESPOND IMMEDIATELY!
                       </p>
                     </div>
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-2">
                       <p className="text-green-800 font-medium mb-1">
                         ✅ Professional tone:
                       </p>
@@ -319,7 +319,7 @@ const WhyCapitalizationMatters = () => {
                         Please respond immediately.
                       </p>
                     </div>
-                    <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
+                    <div className="bg-orange-50 border border-orange-200 rounded-lg p-2">
                       <p className="text-orange-800 font-medium mb-1">
                         ❌ Too casual:
                       </p>
@@ -336,7 +336,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Case Converter Tool Section */}
-                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl p-8 text-white mb-8">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl p-4 text-white mb-8">
                   <h3 className="text-2xl font-bold mb-4 text-center">
                     🚀 Maintain Professional Capitalization Instantly
                   </h3>
@@ -362,7 +362,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Point 4: Respect */}
-                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-4 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-purple-100 p-2 rounded-lg">
                       <Users className="text-purple-600" size={24} />
@@ -378,7 +378,7 @@ const WhyCapitalizationMatters = () => {
                   </p>
 
                   <div className="space-y-3">
-                    <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                    <div className="bg-green-50 border border-green-200 rounded-lg p-2">
                       <p className="text-green-800 font-medium mb-1">
                         ✅ Respectful:
                       </p>
@@ -387,7 +387,7 @@ const WhyCapitalizationMatters = () => {
                         VisionTech."
                       </p>
                     </div>
-                    <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+                    <div className="bg-red-50 border border-red-200 rounded-lg p-2">
                       <p className="text-red-800 font-medium mb-1">
                         ❌ Disrespectful:
                       </p>
@@ -407,7 +407,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Point 5: Brand Voice */}
-                <div className="mb-8 bg-white border border-pink-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-pink-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">
                     🔹 5. It Strengthens Your Brand Voice
                   </h2>
@@ -420,7 +420,7 @@ const WhyCapitalizationMatters = () => {
                     organized and credible.
                   </p>
 
-                  <div className="bg-pink-50 rounded-lg p-4 mb-4">
+                  <div className="bg-pink-50 rounded-lg p-2 mb-4">
                     <p className="text-pink-800 font-medium mb-2">
                       🎯 Brand Examples:
                     </p>
@@ -445,7 +445,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Point 6: Miscommunication */}
-                <div className="mb-8 bg-white border border-red-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-red-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">
                     🔹 6. It Prevents Miscommunication
                   </h2>
@@ -455,7 +455,7 @@ const WhyCapitalizationMatters = () => {
                     meaning of a sentence.
                   </p>
 
-                  <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4">
+                  <div className="bg-red-50 border border-red-200 rounded-lg p-2 mb-4">
                     <p className="text-red-800 font-medium mb-2">
                       ⚠️ Critical Example:
                     </p>
@@ -480,7 +480,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Point 7: Collaboration */}
-                <div className="mb-8 bg-white border border-indigo-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-indigo-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">
                     🔹 7. It Makes Editing and Collaboration Easier
                   </h2>
@@ -491,7 +491,7 @@ const WhyCapitalizationMatters = () => {
                     everyone's writing aligns.
                   </p>
 
-                  <div className="bg-indigo-50 rounded-lg p-4">
+                  <div className="bg-indigo-50 rounded-lg p-2">
                     <p className="text-indigo-800 font-medium mb-2">
                       📚 Professional Standards:
                     </p>
@@ -516,7 +516,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* Conclusion */}
-                <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-8 text-white text-center">
+                <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-2 text-white text-center">
                   <h2 className="text-2xl font-bold mb-4">✅ Final Thoughts</h2>
                   <p className="text-green-100 text-lg mb-4">
                     Proper capitalization is one of those details that seem
@@ -526,7 +526,7 @@ const WhyCapitalizationMatters = () => {
                   </p>
 
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
-                    <div className="bg-white bg-opacity-20 p-4 rounded-lg">
+                    <div className="bg-white bg-opacity-20 p-2 rounded-lg">
                       <p className="font-semibold">
                         By ensuring correct capitalization, you:
                       </p>
@@ -537,7 +537,7 @@ const WhyCapitalizationMatters = () => {
                         <li>• Show respect</li>
                       </ul>
                     </div>
-                    <div className="bg-white bg-opacity-20 p-4 rounded-lg">
+                    <div className="bg-white bg-opacity-20  rounded-lg">
                       <p className="font-semibold">Quick solutions:</p>
                       <p className="text-green-100 mt-2">
                         Use our <strong>free Case Converter Tool</strong> to
@@ -563,7 +563,7 @@ const WhyCapitalizationMatters = () => {
                       className="flex items-center gap-2"
                     >
                       Ensure Professional Capitalization{" "}
-                      <ExternalLink size={16} />
+                      <ExternalLink size={14} />
                     </a>
                   </Button>
                 </div>
@@ -585,7 +585,7 @@ const WhyCapitalizationMatters = () => {
                 </div>
 
                 {/* ✅ All Keywords Display */}
-                <div className="bg-gray-50 rounded-lg p-4">
+                <div className="bg-gray-50 rounded-lg p-2">
                   <div className="flex items-center gap-2 mb-2">
                     <Tags size={14} className="text-gray-500" />
                     <span className="text-sm font-medium text-gray-700">

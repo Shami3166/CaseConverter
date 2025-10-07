@@ -63,7 +63,7 @@ const GoogleSheetsCaseGuide = () => {
         />
       </Helmet>
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto  max-w-4xl">
         {/* Back Button */}
         <Button
           variant="ghost"
@@ -89,7 +89,7 @@ const GoogleSheetsCaseGuide = () => {
             </div>
 
             {/* Blog Header */}
-            <div className="p-8 pb-4">
+            <div className="p-2 pb-4">
               <div className="flex flex-wrap gap-2 mb-4">
                 <Badge
                   variant="secondary"
@@ -121,7 +121,7 @@ const GoogleSheetsCaseGuide = () => {
                 🔠 How to Change Text Case in Google Sheets
               </h1>
 
-              <div className="flex flex-wrap items-center gap-6 text-gray-600 mb-4">
+              <div className="flex flex-wrap items-center gap-4 text-gray-600 mb-4">
                 <div className="flex items-center gap-2">
                   <Clock size={16} />
                   <span>6 min read</span>
@@ -155,7 +155,7 @@ const GoogleSheetsCaseGuide = () => {
             </div>
 
             {/* Blog Content */}
-            <div className="px-8 pb-8">
+            <div className="px-2 pb-8">
               <div className="prose prose-lg max-w-none">
                 {/* Introduction */}
                 <div className="bg-green-50 border-l-4 border-green-500 pl-4 py-2 mb-6">
@@ -175,7 +175,7 @@ const GoogleSheetsCaseGuide = () => {
                 </p>
 
                 {/* Why Section */}
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
                   <h2 className="text-2xl font-bold text-gray-900 mb-3 flex items-center gap-2">
                     <span className="text-blue-600">🔹</span>
                     Why Change Text Case in Google Sheets?
@@ -206,7 +206,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Method 1: UPPER Function */}
-                <div className="mb-8 bg-white border border-green-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-green-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-green-600">🔹</span>
                     Method 1: Use the UPPER Function
@@ -252,7 +252,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Method 2: LOWER Function */}
-                <div className="mb-8 bg-white border border-blue-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-blue-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-blue-600">🔹</span>
                     Method 2: Use the LOWER Function
@@ -285,7 +285,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Method 3: PROPER Function */}
-                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-purple-600">🔹</span>
                     Method 3: Use the PROPER Function
@@ -318,7 +318,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Case Converter Tool Section */}
-                <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl p-8 text-white mb-8">
+                <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl p-4 text-white mb-8">
                   <div className="flex items-center justify-center gap-2 mb-4">
                     <Zap size={24} className="text-yellow-300" />
                     <h3 className="text-2xl font-bold text-center">
@@ -348,7 +348,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Method 4: Apply to Multiple Cells */}
-                <div className="mb-8 bg-white border border-yellow-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-yellow-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-yellow-600">🔹</span>
                     Method 4: Apply Formulas to Multiple Cells
@@ -382,7 +382,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Method 5: Online Tool */}
-                <div className="mb-8 bg-white border border-red-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-red-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-red-600">🔹</span>
                     Method 5: Use Online Case Converter Tool (Fastest)
@@ -436,7 +436,7 @@ const GoogleSheetsCaseGuide = () => {
                 </div>
 
                 {/* Summary Table */}
-                <div className="mb-8 bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                     📊 Google Sheets Case Conversion Summary
                   </h2>

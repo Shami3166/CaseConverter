@@ -58,7 +58,7 @@ google docs formatting,text capitalization,uppercase to lowercase docs,title cas
         />
       </Helmet>
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto max-w-4xl">
         {/* Back Button */}
         <Button
           variant="ghost"
@@ -242,7 +242,7 @@ google docs formatting,text capitalization,uppercase to lowercase docs,title cas
                 </div>
 
                 {/* Case Converter Tool Section */}
-                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl p-8 text-white mb-8">
+                <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl p-4 text-white mb-8">
                   <h3 className="text-2xl font-bold mb-4 text-center">
                     🚀 Quick Online Case Converter Solution
                   </h3>
@@ -251,7 +251,7 @@ google docs formatting,text capitalization,uppercase to lowercase docs,title cas
                     free <Link to="/">online case converter tool</Link> — works
                     anywhere!
                   </p>
-                  <div className="bg-white rounded-xl p-1 shadow-2xl">
+                  <div className="bg-white rounded-xl  shadow-2xl">
                     <CaseConverter />
                   </div>
                   <p className="text-blue-100 text-center mt-4 text-sm">

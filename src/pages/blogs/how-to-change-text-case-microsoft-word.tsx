@@ -62,7 +62,7 @@ const MicrosoftWordCaseGuide = () => {
         />
       </Helmet>
 
-      <div className="container mx-auto px-4 max-w-4xl">
+      <div className="container mx-auto  max-w-4xl">
         {/* Back Button */}
         <Button
           variant="ghost"
@@ -118,7 +118,7 @@ const MicrosoftWordCaseGuide = () => {
                 📝 How to Change Text Case in Microsoft Word
               </h1>
 
-              <div className="flex flex-wrap items-center gap-6 text-gray-600 mb-4">
+              <div className="flex flex-wrap items-center gap-2 text-gray-600 mb-4">
                 <div className="flex items-center gap-2">
                   <Clock size={16} />
                   <span>5 min read</span>
@@ -130,7 +130,7 @@ const MicrosoftWordCaseGuide = () => {
               </div>
 
               {/* ✅ Keywords Tags Section */}
-              <div className="flex items-start gap-2 mb-4 p-4 bg-gray-50 rounded-lg border">
+              <div className="flex items-start gap-2 mb-4 p-2 bg-gray-50 rounded-lg border">
                 <Tags size={16} className="text-gray-500 mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-sm font-medium text-gray-700 block mb-2">
@@ -155,7 +155,7 @@ const MicrosoftWordCaseGuide = () => {
             <div className="px-8 pb-8">
               <div className="prose prose-lg max-w-none">
                 {/* Introduction */}
-                <div className="bg-blue-50 border-l-4 border-blue-500 pl-4 py-2 mb-6">
+                <div className="bg-blue-50 border-l-4 border-blue-500 pl-2 py-2 mb-6">
                   <p className="text-gray-700 italic">
                     Have you ever finished typing a document and realized your{" "}
                     <strong>capitalization is all wrong</strong>? Microsoft Word
@@ -172,7 +172,7 @@ const MicrosoftWordCaseGuide = () => {
                 </p>
 
                 {/* Why Section */}
-                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
+                <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-2 mb-8">
                   <h2 className="text-2xl font-bold text-gray-900 mb-3 flex items-center gap-2">
                     <span className="text-blue-600">🔹</span>
                     Why Text Case Matters in Microsoft Word
@@ -181,22 +181,22 @@ const MicrosoftWordCaseGuide = () => {
                     Proper capitalization isn't just about style — it affects
                     readability, tone, and professionalism:
                   </p>
-                  <div className="grid md:grid-cols-2 gap-4 text-gray-700">
-                    <div className="bg-white p-4 rounded-lg border">
+                  <div className="grid md:grid-cols-2 gap-2 text-gray-700">
+                    <div className="bg-white p-2 rounded-lg border">
                       <p className="font-mono text-red-600 mb-2">ALL CAPS</p>
                       <p>Looks like shouting and can be hard to read</p>
                     </div>
-                    <div className="bg-white p-4 rounded-lg border">
+                    <div className="bg-white p-2 rounded-lg border">
                       <p className="font-mono text-gray-600 mb-2">lowercase</p>
                       <p>Can appear casual or unfinished</p>
                     </div>
-                    <div className="bg-white p-4 rounded-lg border">
+                    <div className="bg-white p-2 rounded-lg border">
                       <p className="font-mono text-green-600 mb-2">
                         Title Case
                       </p>
                       <p>Makes headings look neat and balanced</p>
                     </div>
-                    <div className="bg-white p-4 rounded-lg border">
+                    <div className="bg-white p-2 rounded-lg border">
                       <p className="font-mono text-blue-600 mb-2">
                         Sentence case
                       </p>
@@ -206,7 +206,7 @@ const MicrosoftWordCaseGuide = () => {
                 </div>
 
                 {/* Method 1: Toolbar */}
-                <div className="mb-8 bg-white border border-green-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-green-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-green-600">🔹</span>
                     Method 1: Change Text Case Using the Toolbar
@@ -216,7 +216,7 @@ const MicrosoftWordCaseGuide = () => {
                     in the toolbar.
                   </p>
 
-                  <div className="bg-green-50 rounded-lg p-4 mb-4">
+                  <div className="bg-green-50 rounded-lg p-2 mb-4">
                     <p className="text-green-800 font-medium mb-2">
                       🎯 Step-by-Step:
                     </p>
@@ -233,7 +233,7 @@ const MicrosoftWordCaseGuide = () => {
                     </ol>
                   </div>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       📋 Available Options:
                     </p>
@@ -260,7 +260,7 @@ const MicrosoftWordCaseGuide = () => {
                 </div>
 
                 {/* Method 2: Keyboard Shortcut */}
-                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-purple-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-purple-600">🔹</span>
                     Method 2: Use Keyboard Shortcuts (Fastest)
@@ -270,7 +270,7 @@ const MicrosoftWordCaseGuide = () => {
                     save you tons of time.
                   </p>
 
-                  <div className="bg-purple-100 border-2 border-purple-300 rounded-lg p-6 text-center mb-4">
+                  <div className="bg-purple-100 border-2 border-purple-300 rounded-lg p-2 text-center mb-4">
                     <Keyboard
                       size={32}
                       className="mx-auto mb-3 text-purple-600"
@@ -283,7 +283,7 @@ const MicrosoftWordCaseGuide = () => {
                     </p>
                   </div>
 
-                  <div className="bg-purple-50 rounded-lg p-4 mb-4">
+                  <div className="bg-purple-50 rounded-lg p-2 mb-4">
                     <p className="text-purple-800 font-medium mb-2">
                       ⚡ How it works:
                     </p>
@@ -303,7 +303,7 @@ const MicrosoftWordCaseGuide = () => {
                     </ol>
                   </div>
 
-                  <div className="bg-gray-50 rounded-lg p-4">
+                  <div className="bg-gray-50 rounded-lg p-2">
                     <p className="text-gray-800 font-medium mb-2">
                       🧪 Example:
                     </p>
@@ -322,7 +322,7 @@ const MicrosoftWordCaseGuide = () => {
                 </div>
 
                 {/* Case Converter Tool Section */}
-                <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl p-8 text-white mb-8">
+                <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl p-4 text-white mb-8">
                   <h3 className="text-2xl font-bold mb-4 text-center">
                     🚀 Quick Online Solution
                   </h3>
@@ -349,7 +349,7 @@ const MicrosoftWordCaseGuide = () => {
                 </div>
 
                 {/* Method 3: Find and Replace */}
-                <div className="mb-8 bg-white border border-blue-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-blue-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-blue-600">🔹</span>
                     Method 3: Find and Replace for Consistency
@@ -359,7 +359,7 @@ const MicrosoftWordCaseGuide = () => {
                     and Replace for uniform formatting.
                   </p>
 
-                  <div className="bg-blue-50 rounded-lg p-4">
+                  <div className="bg-blue-50 rounded-lg p-2">
                     <p className="text-blue-800 font-medium mb-2">
                       🔍 How to use:
                     </p>
@@ -381,7 +381,7 @@ const MicrosoftWordCaseGuide = () => {
                 </div>
 
                 {/* Method 4: Online Tool */}
-                <div className="mb-8 bg-white border border-green-200 rounded-lg p-6 shadow-sm">
+                <div className="mb-8 bg-white border border-green-200 rounded-lg p-2 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                     <span className="text-green-600">🔹</span>
                     Method 4: Use Online Tool for Quick Conversion
@@ -391,7 +391,7 @@ const MicrosoftWordCaseGuide = () => {
                     different editors.
                   </p>
 
-                  <div className="bg-green-50 rounded-lg p-4">
+                  <div className="bg-green-50 rounded-lg p-2">
                     <p className="text-green-800 font-medium mb-2">
                       🌐 Why use online tools:
                     </p>
@@ -417,9 +417,9 @@ const MicrosoftWordCaseGuide = () => {
                     guidelines:
                   </p>
 
-                  <div className="bg-white rounded-xl p-6 text-gray-800 mb-4">
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <div className="text-center p-4 border rounded-lg">
+                  <div className="bg-white rounded-xl p-2 text-gray-800 mb-4">
+                    <div className="grid md:grid-cols-2 gap-2">
+                      <div className="text-center p-2 border rounded-lg">
                         <p className="font-bold text-green-600 mb-2">
                           Headings
                         </p>
@@ -429,7 +429,7 @@ const MicrosoftWordCaseGuide = () => {
                           (e.g., "How to Write an Effective Report")
                         </p>
                       </div>
-                      <div className="text-center p-4 border rounded-lg">
+                      <div className="text-center p-2 border rounded-lg">
                         <p className="font-bold text-blue-600 mb-2">
                           Paragraphs
                         </p>
@@ -458,14 +458,14 @@ const MicrosoftWordCaseGuide = () => {
                     fast and easy once you know where to look. No more retyping
                     or manually fixing each word.
                   </p>
-                  <div className="grid md:grid-cols-2 gap-4 mb-6">
-                    <div className="bg-white p-4 rounded-lg border">
+                  <div className="grid md:grid-cols-2 gap-2 mb-6">
+                    <div className="bg-white p-2 rounded-lg border">
                       <p className="font-semibold text-green-600">
                         Quick Methods:
                       </p>
                       <p>Toolbar button & Shift+F3 shortcut</p>
                     </div>
-                    <div className="bg-white p-4 rounded-lg border">
+                    <div className="bg-white p-2 rounded-lg border">
                       <p className="font-semibold text-blue-600">
                         Advanced Options:
                       </p>
@@ -486,7 +486,7 @@ const MicrosoftWordCaseGuide = () => {
               </div>
 
               {/* Share & Keywords Footer */}
-              <div className="flex flex-col gap-4 mt-8 pt-6 border-t border-gray-200">
+              <div className="flex flex-col gap-2 mt-8 pt-6 border-t border-gray-200">
                 <div className="text-center">
                   <span className="text-sm font-medium text-gray-600">
                     Share this guide:
@@ -501,7 +501,7 @@ const MicrosoftWordCaseGuide = () => {
                 </div>
 
                 {/* ✅ All Keywords Display */}
-                <div className="bg-gray-50 rounded-lg p-4">
+                <div className="bg-gray-50 rounded-lg p-2">
                   <div className="flex items-center gap-2 mb-2">
                     <Tags size={14} className="text-gray-500" />
                     <span className="text-sm font-medium text-gray-700">
