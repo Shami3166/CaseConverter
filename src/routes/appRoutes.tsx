@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/index";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import Sitemap from "@/pages/sitemap.xml";
 
 // ✅ Lazy load for less important/heavy pages
 const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy"));
@@ -46,7 +47,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-
+      <Route path="/sitemap.xml" element={<Sitemap />} />
       {/* ✅ LAZY LOADING for secondary pages */}
       <Route
         path="/privacy-policy"
