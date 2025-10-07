@@ -1,4 +1,19 @@
 {
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/sitemap.xml",
@@ -17,12 +32,15 @@
           "value": "text/plain"
         }
       ]
-    }
-  ],
-  "rewrites": [
+    },
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        }
+      ]
     }
   ]
 }
